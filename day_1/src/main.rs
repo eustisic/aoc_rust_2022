@@ -9,7 +9,6 @@ fn main() {
   let mut contents = String::new();
   buf.read_to_string(&mut contents).expect("msg");
 
-
   let split_lines: Vec<&str> = contents.split("\n").collect();
   let mut totals: Vec<u32> = Vec::new();
 
